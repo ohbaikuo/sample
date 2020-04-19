@@ -1,0 +1,6 @@
+C:\Users\ohbai\Documents\My OneDrive\OneDrive\ドキュメント\Xamarin\Microsoft.Doc\QuickStartPrism\01_SinglePageApplication\Notes\Notes\Notes.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\ohbai\Documents\My OneDrive\OneDrive\ドキュメント\Xamarin\Microsoft.Doc\QuickStartPrism\01_SinglePageApplication\Notes\Notes\Notes.Android\obj\Debug\90\build.props
+C:\Users\ohbai\Documents\My OneDrive\OneDrive\ドキュメント\Xamarin\Microsoft.Doc\QuickStartPrism\01_SinglePageApplication\Notes\Notes\Notes.Android\obj\Debug\90\adb.props
+C:\Users\ohbai\Documents\My OneDrive\OneDrive\ドキュメント\Xamarin\Microsoft.Doc\QuickStartPrism\01_SinglePageApplication\Notes\Notes\Notes.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\ohbai\Documents\My OneDrive\OneDrive\ドキュメント\Xamarin\Microsoft.Doc\QuickStartPrism\01_SinglePageApplication\Notes\Notes\Notes.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\ohbai\Documents\My OneDrive\OneDrive\ドキュメント\Xamarin\Microsoft.Doc\QuickStartPrism\01_SinglePageApplication\Notes\Notes\Notes.Android\obj\Debug\90\res.flag
