@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+			 xmlns:local="clr-namespace:Notes.Converters"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Notes.Views.NotesPage"
+			 Title="Notes">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<local:SelectedItemChangedEventArgsConverter x:Key="SelectedItemChangedEventArgsConverter" />
+		</ResourceDictionary>
+
+		<Style TargetType="{x:Type ListView}">
+			<Setter Property="BackgroundColor"
+					Value="{StaticResource AppBackgroundColor}" />
+		</Style>
+	</ContentPage.Resources>
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Text="+"
+					 Command="{Binding NoteAddCommand}" />
+	</ContentPage.ToolbarItems>
+	<ListView x:Name="listView"
+			  Margin="{StaticResource PageMargin}"
+			  ItemsSource="{Binding Notes}">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<TextCell Text="{Binding Text}"
+						  TextColor="Black"
+						  Detail="{Binding Date}" />
+			</DataTemplate>
+		</ListView.ItemTemplate>
+		<ListView.Behaviors>
+			<prism:EventToCommandBehavior EventName="ItemSelected"
+										  Command="{Binding ItemSelectedCommand}"
+										  EventArgsConverter="{StaticResource SelectedItemChangedEventArgsConverter}" />
+		</ListView.Behaviors>
+	</ListView>
+	
+
+
+</ContentPage>

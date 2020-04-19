@@ -3,3 +3,24 @@
 ################################################################################
 
 /PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes/bin/Debug/netstandard2.0
+/PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes/obj
+/PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes.Android/bin/Debug
+/PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes.Android/obj
+/PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes.iOS/obj
+/PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes.UWP/bin/x86/Debug
+/PrismXamarin/QuickStartToPrism/02_MultiPage/Notes/Notes.UWP/obj
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes/bin/Debug/netstandard2.0
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes/obj
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes.Android/bin/Debug
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes.Android/obj
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes.iOS/bin
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes.iOS/obj
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes.UWP/bin/x86/Debug
+/PrismXamarin/QuickStartToPrism/04_Styled/Notes/Notes.UWP/obj
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes/bin/Debug/netstandard2.0
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes/obj
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes.Android/bin/Debug
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes.Android/obj
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes.iOS/obj
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes.UWP/bin/x86/Debug
+/PrismXamarin/QuickStartToPrism/03_LocalDatabase/Notes/Notes.UWP/obj
