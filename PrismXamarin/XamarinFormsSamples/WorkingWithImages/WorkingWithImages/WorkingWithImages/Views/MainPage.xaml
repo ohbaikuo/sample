@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			xmlns:prism="http://prismlibrary.com"
+			prism:ViewModelLocator.AutowireViewModel="True"
+			x:Class="WorkingWithImages.Views.MainPage"
+			xmlns:local="clr-namespace:WorkingWithImages.Views"
+			Title="WorkingWithImages">
+	<local:EmbeddedImagePage Title="EmbeddedImage"
+							 IconImageSource="xaml.png"/>
+	<local:DownloadImagePage Title="DownloadImage"
+							 IconImageSource="xaml.png"/>
+	<local:LocalImagePage Title="LocalImage"
+						  IconImageSource="xaml.png"/>
+	<local:AnimationGifPage Title="AnimationGif"
+							IconImageSource="xaml.png"/>
+</TabbedPage>

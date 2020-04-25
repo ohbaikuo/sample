@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="WorkingWithImages.Views.DownloadImagePage">
+	<StackLayout Margin="20, 35, 20, 20">
+		<Label Text="Image UriSource XAML"
+			   FontAttributes="Bold"
+			   HorizontalOptions="Center" />
+		<Image Source="https://aka.ms/campus.jpg" />
+		<Image>
+			<Image.Source>
+				<UriImageSource Uri="https://aka.ms/campus.jpg"
+								CacheValidity="10:00:00.0" />
+			</Image.Source>
+		</Image>
+		<Label Text="この画像はmicrosoft.comからダウンロードされます。" />
+	</StackLayout>
+</ContentPage>
+	

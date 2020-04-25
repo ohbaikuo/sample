@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+			 xmlns:local="clr-namespace:WorkingWithImages.Extensions"
+			 x:Class="WorkingWithImages.Views.EmbeddedImagePage">
+	<StackLayout Margin="20, 35, 20, 20">
+		<Label Text="Image Embedded Resource XAML"
+			   FontAttributes="Bold"
+			   HorizontalOptions="Center" />
+		<Image Source="{local:ImageResource Images.beach.jpg}" />
+		<Label Text="この画像はXAMLで参照された埋込リソースです。デバイスのピクセル密度（iOS Retinaなど）に関係なく、同じ画像ファイルが使用されます。" />
+	</StackLayout>
+</ContentPage>

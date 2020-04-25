@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="WorkingWithImages.Views.LocalImagePage">
+	<StackLayout Margin="20, 35, 20, 20">
+		<Label Text="Image FileSource XAML"
+			   FontAttributes="Bold"
+			   HorizontalOptions="Center" />
+		<Image Source="waterfront.jpg" />
+		<Label Text="イメージは XAML で参照されます。iOS と Android では、プラットフォームの命名規則によって、複数の解像度が実行時に提供および解決されます。" />
+	</StackLayout>
+  
+</ContentPage>

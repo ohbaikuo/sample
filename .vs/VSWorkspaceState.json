@@ -3,13 +3,7 @@
     "",
     "\\PrismXamarin",
     "\\PrismXamarin\\QuickStartToPrism",
-    "\\PrismXamarin\\QuickStartToPrism\\01_SinglePageApplication",
-    "\\PrismXamarin\\QuickStartToPrism\\01_SinglePageApplication\\Notes\\Notes.UWP",
-    "\\PrismXamarin\\QuickStartToPrism\\02_MultiPage\\Notes",
-    "\\PrismXamarin\\QuickStartToPrism\\02_MultiPage\\Notes\\Notes.Android",
-    "\\PrismXamarin\\QuickStartToPrism\\02_MultiPage\\Notes\\Notes.UWP",
-    "\\PrismXamarin\\QuickStartToPrism\\03_LocalDatabase\\Notes",
-    "\\PrismXamarin\\QuickStartToPrism\\03_LocalDatabase\\Notes\\Notes"
+    "\\PrismXamarin\\QuickStartToPrism\\01_SinglePageApplication"
   ],
   "SelectedNode": "\\PrismXamarin\\QuickStartToPrism\\01_SinglePageApplication\\Notes.sln",
   "PreviewInSolutionExplorer": false
